@@ -1,0 +1,15 @@
+Package: psrc.sharepoint
+Title: Enables reading from & writing to PSRC's internal file storage
+Version: 0.0.1
+Authors@R: 
+    person("Michael", "Jensen", , "mjensen@prsrc.org", role = c("aut", "cre"))
+Description: Includes simple functions for reading from & writing to PSRC's internal file storage using R.
+License: BSD_2_clause + file LICENSE
+Encoding: UTF-8
+Imports:
+    Microsoft365R,
+    readr,
+    readxl,
+    writexl
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
