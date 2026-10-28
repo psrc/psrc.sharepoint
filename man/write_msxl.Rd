@@ -4,14 +4,16 @@
 \alias{write_msxl}
 \title{Write a data frame to an Excel workbook on SharePoint}
 \usage{
-write_msxl(x, site, filepath, sheet = "Sheet1", overwrite = TRUE)
+write_msxl(x, site, drive, filepath, sheet = "Sheet1", overwrite = TRUE)
 }
 \arguments{
 \item{x}{A data frame to write to the workbook.}
 
 \item{site}{SharePoint site name used in the PSRC site URL.}
 
-\item{filepath}{Destination path within the site's Documents drive.}
+\item{drive}{SharePoint drive name.}
+
+\item{filepath}{Destination path within the drive.}
 
 \item{sheet}{Worksheet name for \code{x}.}
 

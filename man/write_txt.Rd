@@ -4,14 +4,16 @@
 \alias{write_txt}
 \title{Write a data frame to a delimited text file on SharePoint}
 \usage{
-write_txt(x, site, filepath, overwrite = TRUE, ...)
+write_txt(x, site, drive, filepath, overwrite = TRUE, ...)
 }
 \arguments{
 \item{x}{A data frame to write to the file.}
 
 \item{site}{SharePoint site name used in the PSRC site URL.}
 
-\item{filepath}{Destination path within the site's Documents drive. The
+\item{drive}{SharePoint drive name.}
+
+\item{filepath}{Destination path within the drive. The
 extension must be \code{.csv}, \code{.txt}, or \code{.tab}.}
 
 \item{overwrite}{Replace the destination file if it already exists.}

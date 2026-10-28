@@ -2,12 +2,12 @@
 % Please edit documentation in R/sharepoint-files.R
 \name{.upload_file}
 \alias{.upload_file}
-\title{Upload a file to the site's Documents drive}
+\title{Upload a file to a site's drive}
 \usage{
 .upload_file(drive, src, dest, overwrite)
 }
 \arguments{
-\item{drive}{SharePoint Documents drive.}
+\item{drive}{A SharePoint drive object.}
 
 \item{src}{Local file path.}
 
@@ -19,6 +19,6 @@
 The uploaded drive item, invisibly.
 }
 \description{
-Upload a file to the site's Documents drive
+Upload a file to a site's drive
 }
 \keyword{internal}

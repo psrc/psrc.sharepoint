@@ -4,12 +4,14 @@
 \alias{read_txt}
 \title{Read a delimited text file from SharePoint}
 \usage{
-read_txt(site, filepath, ...)
+read_txt(site, drive, filepath, ...)
 }
 \arguments{
 \item{site}{SharePoint site name used in the PSRC site URL.}
 
-\item{filepath}{Path to the file within the site's Documents drive.}
+\item{drive}{SharePoint drive name.}
+
+\item{filepath}{Path to the file within the drive.}
 
 \item{...}{Additional arguments passed to \code{\link[readr:read_delim]{readr::read_delim()}}.}
 }

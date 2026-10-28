@@ -4,13 +4,14 @@
 \alias{read_msxl}
 \title{Read an Excel workbook from SharePoint}
 \usage{
-read_msxl(site, filepath, sheet = NULL, ...)
+read_msxl(site, drive, filepath, sheet = NULL, ...)
 }
 \arguments{
 \item{site}{SharePoint site name used in the PSRC site URL.}
 
-\item{filepath}{Path to an \code{.xls} or \code{.xlsx} workbook within the site's
-Documents drive.}
+\item{drive}{SharePoint drive name.}
+
+\item{filepath}{Path to an \code{.xls} or \code{.xlsx} workbook within the drive.}
 
 \item{sheet}{Worksheet name or position; defaults to the first worksheet.}
 
